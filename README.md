@@ -52,11 +52,11 @@ There are some data in the dataset where we are unable to identify the actual re
 
 We can use the filter function in Excel to remove rows where two columns data are missing. Here are the steps:
 
-Select the dataset in Excel.
-Click on the "Data" tab in the top menu.
-Click on the "Filter" button.
-Click on the filter arrow in the column header of the first column with missing data.
-Deselect the checkbox for the (Blanks) option.
+1. Select the dataset in Excel.
+2. Click on the "Data" tab in the top menu.
+3. Click on the "Filter" button.
+4. Click on the filter arrow in the column header of the first column with missing data.
+5. Deselect the checkbox for the (Blanks) option.
 Click on the filter arrow in the column header of the second column with missing data.
 Deselect the checkbox for the (Blanks) option.
 Excel will now filter the dataset and remove all rows where either of the two columns has missing data.
