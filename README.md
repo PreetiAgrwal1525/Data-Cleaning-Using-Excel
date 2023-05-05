@@ -57,53 +57,53 @@ We can use the filter function in Excel to remove rows where two columns data ar
 3. Click on the "Filter" button.
 4. Click on the filter arrow in the column header of the first column with missing data.
 5. Deselect the checkbox for the (Blanks) option.
-Click on the filter arrow in the column header of the second column with missing data.
-Deselect the checkbox for the (Blanks) option.
-Excel will now filter the dataset and remove all rows where either of the two columns has missing data.
-Clean and format columns
-Cleaning and formatting columns can make data to easy to understand, sometimes the data is not in the proper format, which will make analysis critical.
+6. Click on the filter arrow in the column header of the second column with missing data.
+7. Deselect the checkbox for the (Blanks) option.
+8. Excel will now filter the dataset and remove all rows where either of the two columns has missing data.
+9. Clean and format columns
+10. Cleaning and formatting columns can make data to easy to understand, sometimes the data is not in the proper format, which will make analysis critical.
 
 We can make the data easy to understand by correcting the data and wrong-spelled words in a column. To uppercase a column in Excel using UPPER function and then find and replace the incorrect spelling, follow these steps:
 
-Select the sheet containing the column you want to convert to uppercase.
-Click on the cell in the column where you want to start the uppercase conversion.
-In the formula bar at the top of the screen, enter the UPPER function and the cell reference of the first cell in the column. For example, if you want to convert the "A" column to uppercase and you want to start with cell A2, enter "=UPPER(A2)" in the formula bar.
-Press Enter to apply the UPPER function to the first cell in the column.
-Excel will convert the text in the cell to uppercase. To apply the UPPER function to the rest of the cells in the column, click on the cell where you applied the function and drag the fill handle (the small square at the bottom-right corner of the cell) down to the last cell in the column that you want to convert.
-Release the mouse button to apply the UPPER function to all selected cells.
-The entire column should now be in uppercase.
+1. Select the sheet containing the column you want to convert to uppercase.
+2. Click on the cell in the column where you want to start the uppercase conversion.
+3. In the formula bar at the top of the screen, enter the UPPER function and the cell reference of the first cell in the column. For example, if you want to convert the "A" column to uppercase and you want to start with cell A2, enter "=UPPER(A2)" in the formula bar.
+4. Press Enter to apply the UPPER function to the first cell in the column.
+5. Excel will convert the text in the cell to uppercase. To apply the UPPER function to the rest of the cells in the column, click on the cell where you applied the function and drag the fill handle (the small square at the bottom-right corner of the cell) down to the last cell in the column that you want to convert.
+6. Release the mouse button to apply the UPPER function to all selected cells.
+7. The entire column should now be in uppercase.
 Now, to find and replace the incorrect spelling, click on the "Find & Select" button in the "Editing" group on the "Home" tab.
 Select "Replace" from the drop-down menu.
-In the "Find what" field, enter the incorrect spelling that you want to replace. For example, if "Marketing" was misspelled as "Marketting," enter "Marketting" in this field.
-In the "Replace with" field, enter the correct spelling. In our example, enter "Marketing" in this field.
-Click on the "Replace All" button to replace all instances of the incorrect spelling with the correct spelling. If you want to review each instance before replacing, click on "Find Next" and then "Replace" for each instance.
-Once you have reviewed and replaced all incorrect spellings, you can save the changes to the worksheet.
+8. In the "Find what" field, enter the incorrect spelling that you want to replace. For example, if "Marketing" was misspelled as "Marketting," enter "Marketting" in this field.
+9. In the "Replace with" field, enter the correct spelling. In our example, enter "Marketing" in this field.
+10. Click on the "Replace All" button to replace all instances of the incorrect spelling with the correct spelling. If you want to review each instance before replacing, click on "Find Next" and then "Replace" for each instance.
+11. Once you have reviewed and replaced all incorrect spellings, you can save the changes to the worksheet.
 A dataset to clean
 
 # Fill in Blank Cells
 _______________________________________________________________________________________________________________________________________________________________________
 Blank cells can cause errors in analysis. You can fill in blank cells with the following steps:
 
-Select the data range.
-Go to the Home tab in the ribbon.
-Click on the Find & Select button.
-Click on the Go To Special option.
-Select the Blanks option.
-Click OK.
-Type in the value to fill in the blank cells.
-Press Ctrl + Enter.
+. Select the data range.
+. Go to the Home tab in the ribbon.
+. Click on the Find & Select button.
+. Click on the Go To Special option.
+. Select the Blanks option.
+. Click OK.
+. Type in the value to fill in the blank cells.
+. Press Ctrl + Enter.
 
 
 # Highlighting Rows with the Top 10 Highest Salary
 _______________________________________________________________________________________________________________________________________________________________________
 To highlight the Top 10 Employee rows with the highest salary in the dataset, the following steps been followed:
 
-Select the dataset in Excel.
-Click on the "Home" tab in the ribbon and then click on "Conditional Formatting" in the "Styles" group.
-Select "New Rule" from the drop-down menu.
-In the "New Formatting Rule" dialog box, select "Use a formula to determine which cells to format."
-In the "Format values where this formula is true" field, enter the following formula: =RANK.EQ($M7,$M:$M)<=10
-This formula will highlight rows where the value in the Salary column is less than or equal to the 10th Rank in the column.
-Click on the "Format" button and select the formatting style that you want to use to highlight the rows that match the criteria.
-Click on "OK" to close the "New Formatting Rule" dialog box.
-Now, all the 10 rows will be highlighted which have highest salary.
+. Select the dataset in Excel.
+. Click on the "Home" tab in the ribbon and then click on "Conditional Formatting" in the "Styles" group.
+. Select "New Rule" from the drop-down menu.
+. In the "New Formatting Rule" dialog box, select "Use a formula to determine which cells to format."
+. In the "Format values where this formula is true" field, enter the following formula: =RANK.EQ($M7,$M:$M)<=10
+. This formula will highlight rows where the value in the Salary column is less than or equal to the 10th Rank in the column.
+. Click on the "Format" button and select the formatting style that you want to use to highlight the rows that match the criteria.
+. Click on "OK" to close the "New Formatting Rule" dialog box.
+. Now, all the 10 rows will be highlighted which have highest salary.
